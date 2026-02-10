@@ -1,0 +1,33 @@
+/* ... Previous CSS ... */
+
+#maya-speech-bubble {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid #0ff; /* Neon border */
+    color: #fff;
+    
+    padding: 20px 40px;
+    font-size: 1.8rem;
+    font-family: 'Share Tech Mono', monospace;
+    box-shadow: 0 0 15px #0ff;
+    
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    max-width: 800px;
+}
+
+.hidden {
+    opacity: 0 !important;
+}
+
+.blinking-cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
