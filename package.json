@@ -1,0 +1,9 @@
+{
+  "name": "mayas-ledge-bot",
+  "version": "1.0.0",
+  "description": "Twitch chat integration for Maya's Ledge",
+  "main": "scripts/bot_logic.js",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
