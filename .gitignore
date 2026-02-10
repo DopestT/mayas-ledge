@@ -1,0 +1,13 @@
+# Ignore dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Ignore secrets (Never commit API keys!)
+config.js
+secrets.py
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
